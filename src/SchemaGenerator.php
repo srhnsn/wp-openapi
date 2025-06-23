@@ -133,7 +133,7 @@ class SchemaGenerator {
 
 				foreach ($properties as $key => $property) {
 					if (isset($property['required'])) {
-						unset($properties[$key]['required']);
+						//unset($properties[$key]['required']);
 					}
 				}
 				return $properties;
